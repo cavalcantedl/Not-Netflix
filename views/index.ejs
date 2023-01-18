@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix Clone</title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <link rel="shortcut icon" href="images/logonetflix-n.png">
+    </head>
+    <body>
+       <div class="container">
+
+          <nav class="navbar">
+            <img id="logo" width="150px" src="/images/Netflix_2015_logo.svg.png" alt="Netflix">
+            <select name="languages" id="languages">
+                <option value="ptbr">Português</option>
+                <option value="en">Ingles</option>
+            </select>
+            <button onclick="window.location='profile'" id="btn-login" >
+               Entrar
+            </button>
+          </nav>
+          
+          <div class="story-card">
+                <h1 class="story-card-title">
+                    Filmes, séries e muito mais. <br/> Sem limites.
+                </h1>
+                <h2 class="story-card-subtitle">
+                    Assista onde quiser. Cancele quando quiser.
+                </h2>
+                <form class="form-container" action="">
+                    <h3 class="form-invitation">
+                        Pronto para assistir? Informe seu email apara criar ou reiniciar sua assinatura.
+                    </h3>
+                    <div class="form-container-email">
+                        <input id="input-email" type="text" placeholder="Email">
+                        <button id="btn-form">
+                            Vamos lá >
+                        </button>
+                    </div>
+                </form>
+          </div>
+
+       </div>
+    </body>
+</html>
